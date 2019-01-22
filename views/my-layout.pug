@@ -1,0 +1,924 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Ahmad Ardiansyah
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="icon", href=env.HOSTNAME+"/theme/img/favicon.ico")
+    link(href=env.HOSTNAME+'/theme/css/bootstrap.css', rel='stylesheet', type='text/css', media='all')
+    link(href=env.HOSTNAME+'/theme/css/magnific-popup.css', type='text/css', rel='stylesheet', media='all')
+    link(href=env.HOSTNAME+'/theme/css/font.css', rel='stylesheet', type='text/css', media='all')
+    link(href=env.HOSTNAME+'/theme/css/base.css', rel='stylesheet', type='text/css', media='all')
+    link(href=env.HOSTNAME+'/theme/css/main.css', rel='stylesheet', type='text/css', media='all')
+    link(href=env.HOSTNAME+'/theme/css/owl-carousel/owl.carousel.css', rel='stylesheet', media='all')
+    link(href=env.HOSTNAME+'/theme/css/owl-carousel/owl.theme.css', rel='stylesheet', media='all')
+  body
+    .loader
+      .loader-inner
+        .sk-cube-grid
+          .sk-cube.sk-cube1
+          .sk-cube.sk-cube2
+          .sk-cube.sk-cube3
+          .sk-cube.sk-cube4
+          .sk-cube.sk-cube5
+          .sk-cube.sk-cube6
+          .sk-cube.sk-cube7
+          .sk-cube.sk-cube8
+          .sk-cube.sk-cube9
+
+    #wrapper
+      section#home.home
+        .block-content
+          .block-teaser.block-background-image.large.overlay(data-background=env.HOSTNAME+'/theme/img/teaser/2.jpg')
+            .container
+              .row
+                .col-sm-12
+                  h1.white Ahmad Ardiansyah
+                  h3.mt-20.white.mb-200 Web Engineer / Developer
+              .row
+                .col-sm-6
+                  a.but.opc.ico.white(href='#')
+                    i.icon-print-1
+                    | Print Out My CV
+                .col-sm-6.t-right
+                  p.white.short-email(style='top: 90px;')
+                    | Do you have any questions ? Write to me at 
+                    a(href='mailto:ahmad.ardi06@gmail.com') ahmad.ardi06@gmail.com
+
+      .nav-container.base
+        nav.main-nav.default
+          .container
+            .row
+              .mobile-menu-holder
+                a.mobile-btn(href='#')
+                  i.icon-menu
+          .container
+            .row
+              .col-sm-5.t-center
+                ul.menu.first
+                  li
+                    a.scroll(href='#home')
+                      | Home
+                      i.icon-home
+                  li
+                    a.scroll(href='#about')
+                      | About
+                      i.icon-user
+                  li
+                    a.scroll(href='#resume')
+                      | Resume
+                      i.icon-doc-text-inv
+              .col-sm-2.pd-0.t-center
+                .img-profile
+                  img(src=env.HOSTNAME+'/theme/img/testimonial/7.jpg', alt='')
+                .name-profile
+                  h5
+                    a.scroll(href='#home')
+                      | Ardiansyah
+                      span Web Engineer / Developer
+              .col-sm-5.t-center
+                ul.menu.second
+                  li
+                    a.scroll(href='#portfolio')
+                      | Portfolio
+                      i.icon-camera
+                  li
+                    a.scroll(href='#blog')
+                      | Blog
+                      i.icon-chat
+                  li
+                    a.scroll(href='#contact')
+                      | Contact
+                      i.icon-paper-plane
+
+      section#about.about
+        .block-content.clearfix
+          .block-about.one.bg-grey-1
+            .block-title
+              h2.title Who am I ?
+            h5.lead.mt-40 A Talented Web Engineer / Developer Located In Our Lovely Earth
+            p.mt-20
+              | Hard work, very well organized, work in team, following the rules, funny, and
+              | being the best I can be.
+            a.but.brd.ico.white.mt-30(href='#')
+              i.icon-down-circled2
+              | Download My CV
+
+          .block-about.two.bg-grey-2
+            .block-title
+              h2.title Personal Info
+            ul.mt-40.info
+              li
+                span Birthdate
+                |  : January, 17
+                sup(style="font-size: 9px;") th 
+                | 1997
+              li
+                span Phone
+                |  : +62 823-3409-3822
+              li
+                span Email
+                |  : ahmad.ardi06@gmail.com
+              li
+                span Github
+                |  : @ardiansyah3ber
+              li
+                span Freelance
+                |  : Available
+              li
+                span Adresse
+                |  : Jl. Ketewel Timur RT007 RW006 Sememu, Pasirian Lumajang.
+            ul.mt-20.socials
+              li
+                a(href='#')
+                  i.icon-twitter
+              li
+                a(href='#')
+                  i.icon-facebook
+              li
+                a(href='#')
+                  i.icon-gplus
+              li
+                a(href='#')
+                  i.icon-pinterest
+              li
+                a(href='#')
+                  i.icon-linkedin
+              li
+                a(href='#')
+                  i.icon-dribbble
+              li
+                a(href='#')
+                  i.icon-vimeo
+              li
+                a(href='#')
+                  i.icon-flickr
+
+          .block-about.three.bg-grey-1
+            .block-title
+              h2.title My Expertise
+            .block-expertise.mt-40
+              .expertise.mb-20.clearfix
+                .exp-ico
+                  span.ico
+                    i.ic-desktop
+                .exp-det
+                  h6 Web Engineer
+                  p Node.js, Vue.js, and PHP
+              .expertise.mb-20.clearfix
+                .exp-ico
+                  span.ico
+                    i.ic-lock
+                .exp-det
+                  h6 Specialist RDS
+                  p Cloud Service MySQL and Postgres
+              .expertise.clearfix
+                .exp-ico
+                  span.ico
+                    i.ic-phone
+                .exp-det
+                  h6 Networking
+                  p Cisco, Mikrotik, etc.
+      section#resume.resume.pt-100.pb-80
+        .container
+          .row
+            .col-md-12
+              .block-title.mb-60
+                h2.title My Resume
+
+          .row.masonry
+            .block-content
+              .col-md-4.col-sm-6.resume-boxe.masonry
+                .inner-resume-boxe
+                  .block-icon
+                    i.ic-toolbox
+                  .block-title
+                    h3.title.medium Expertise
+                  .timeline.mt-40
+                    .exp
+                      .hgroup.mb-5
+                        h4 Infrastructure – IT Operational
+                        h6
+                          | Sept 2018 – 
+                          span.current Current
+                      p
+                        | at PT. Carsworld Digital Indonesia. Bintraco Dharma Tbk.
+                    .exp
+                      .hgroup.mb-5
+                        h4 Web Developer – MIS, API, and CMS
+                        h6 Agt 2015 – Agt 2018
+                      p
+                        | at Electronic Engineering Polytechnic Institute of Surabaya.
+                    .exp
+                      .hgroup.mb-5
+                        h4 Freelancer – MIS Website
+                        h6 Agt 2013 – Agt 2015
+                      p
+                        | at Electronic Engineering Polytechnic Institute of Surabaya.
+
+              .col-md-4.col-sm-6.resume-boxe.masonry
+                .inner-resume-boxe
+                  .block-icon
+                    i.ic-pencil
+                  .block-title
+                    h3.title.medium Education
+                  .timeline.mt-40
+                    .edu
+                      .hgroup.mb-5
+                        h4 Associate’s degree – Informatics Engineering
+                        h6 Jul 2015 – Agt 2018
+                      p
+                        | at Electronic Engineering Polytechnic Institute of Surabaya.
+                    .edu
+                      .hgroup.mb-5
+                        h4 Senior High School – Software Engineering
+                        h6 May 2012 – Jun 2015
+                      p
+                        | at SMK Negeri 1 Lumajang.
+                    .edu
+                      .hgroup.mb-5
+                        h4 Junior High School
+                        h6 Jun 2019 – Jul 2012
+                      p
+                        | at SMP Negeri 2 Pasirian.
+
+              .col-md-4.col-sm-6.resume-boxe.masonry
+                .inner-resume-boxe
+                  .block-icon
+                    i.ic-tools-2
+                  .block-title
+                    h3.title.medium Skills
+                  .skills.mt-40
+                    ul.skill-list.clearfix
+                      li
+                        h4(style='width: 200px') Node.js + Vue.js
+                        .rating
+                          span
+                          span
+                          span
+                          span
+                          span.transparent
+                      li
+                        h4(style='width: 200px') Mysql, Postgres, MongoDB
+                        .rating
+                          span
+                          span
+                          span
+                          span
+                          span.transparent
+                      li
+                        h4(style='width: 200px') Internet of Things (IoT)
+                        .rating 
+                          span
+                          span
+                          span
+                          span
+                          span.transparent
+                      li
+                        h4(style='width: 200px') Hypertext Preprocessor
+                        .rating
+                          span
+                          span
+                          span
+                          span.transparent
+                          span.transparent
+                      li
+                        h4(style='width: 200px') Docker Container
+                        .rating 
+                          span
+                          span
+                          span
+                          span
+                          span.transparent
+                      li
+                        h4(style='width: 200px') Elasticsearch (ELK)
+                        .rating 
+                          span
+                          span
+                          span
+                          span
+                          span.transparent
+                      li
+                        h4(style='width: 200px') Networking
+                        .rating
+                          span
+                          span
+                          span
+                          span.transparent
+                          span.transparent
+
+              .col-md-4.col-sm-6.resume-boxe.masonry
+                .inner-resume-boxe
+                  .block-icon
+                    i.ic-mic
+                  .block-title
+                    h3.title.medium Languages
+                  .skills.mt-40
+                    ul.skill-list.clearfix
+                      li
+                        h4 English
+                        .rating
+                          span
+                          span
+                          span
+                          span.transparent
+                          span.transparent
+                      li
+                        h4 Java
+                        .rating
+                          span
+                          span
+                          span
+                          span
+                          span.transparent
+                      li
+                        h4 Indonesian
+                        .rating
+                          span
+                          span
+                          span
+                          span
+                          span.transparent
+              .col-md-4.col-sm-6.resume-boxe.masonry
+                .inner-resume-boxe
+                  .block-icon
+                    i.ic-telescope
+                  .block-title
+                    h3.title.medium Interests
+                  .hb-list.mt-40
+                    ul
+                      li
+                        span
+                          i.ic-megaphone
+                        h6 Music
+                      li
+                        span
+                          i.ic-strategy
+                        h6 Gaming
+                      li
+                        span
+                          i.ic-hotairballoon
+                        h6 Travel
+                      li
+                        span
+                          i.ic-basket
+                        h6 Cooking
+
+              .col-md-4.col-sm-6.resume-boxe.masonry
+                .inner-resume-boxe
+                  .block-icon
+                    i.ic-wallet
+                  .block-title
+                    h3.title.medium Assets
+                  .ast-list.mt-40
+                    ul
+                      li
+                        span Responsible
+                        span Diligence
+                        span Labour
+                      li
+                        span Rigor
+                        span Creative
+                        span Funny
+                      li
+                        span Great Communicator
+                        span Flexible
+
+        .block-content.bg-grey.pt-100.pb-80
+          .container
+            .row
+              .col-md-12
+                .block-title.mb-60
+                  h2.title My History Works
+            .row.masonry
+              .block-service.clearfix
+                .col-md-4.col-sm-6.resume-boxe.masonry
+                  .inner-resume-boxe(style="background: white;")
+                    .block-icon
+                      i.ic-toolbox
+                    .block-title
+                      h3.title.medium Organizations
+                    .timeline.mt-40
+                      .exp
+                        .hgroup.mb-5
+                          h4 Kepala Divisi Hubungan Alumni
+                          h6 Jan – Dec 2017
+                        p
+                          | at Himpunan Teknik Informatika.
+                      .exp
+                        .hgroup.mb-5
+                          h4 Staf Muda Departemen Dalam Negeri
+                          h6 Jan – Dec 2016
+                        p
+                          | at Himpunan Teknik Informatika.
+                      .exp
+                        .hgroup.mb-5
+                          h4 Relawan Mengajar Hari Inspirasi
+                          h6 Jan – Jun 2015
+                        p
+                          | at Kelas Inspirasi Lumajang.
+                
+                .col-md-8.col-sm-6.resume-boxe.masonry
+                  .inner-resume-boxe(style="background: white;")
+                    .block-icon
+                      i.ic-tools-2
+                    .block-title
+                      h3.title.medium Project Experience
+                    .timeline.mt-40
+                      .exp
+                        .hgroup.mb-5
+                          h4 MONITORING PING NETWORK
+                          h6 2018 - WEB APP - INDIVIDUAL
+                        p
+                          | at PT. Meka Adipratama Semarang.
+                      .exp
+                        .hgroup.mb-5
+                          h4 MONITOR AND CONTROL CAR WITH RASPBERRY PI 3
+                          h6 2018 - WEB & MOBILE APP - INDIVIDUAL
+                        p
+                          | at Electronic Engineering Polytechnic Institute of Surabaya.
+                      .exp
+                        .hgroup.mb-5
+                          h4 SISTEM INFORMASI PELAPORAN VALUTA ASING
+                          h6 2017 - WEB APP - INDIVIDUAL
+                        p
+                          | at PT. Kadir Batcha.
+                      .exp
+                        .hgroup.mb-5
+                          h4 PINJAM RUANG PENS DENGAN TEKNIK CRAWLING
+                          h6 2017 - WEB APP – TEAM
+                        p
+                          | at Electronic Engineering Polytechnic Institute of Surabaya.
+                      .exp
+                        .hgroup.mb-5
+                          h4 REMOTE LAMP BASED INTERNET OF THINGS
+                          h6 2016 - MOBILE APP - TEAM
+                        p
+                          | at Electronic Engineering Polytechnic Institute of Surabaya.
+                      .exp
+                        .hgroup.mb-5
+                          h4 PENS GUIDE BASED AUGMENTED REALITY
+                          h6 2016 - MOBILE APP - TEAM
+                        p
+                          | at Electronic Engineering Polytechnic Institute of Surabaya.
+                      .exp
+                        .hgroup.mb-5
+                          h4 SISTEM MANAJEMEN AUDIT KABUPATEN LUMAJANG
+                          h6 2015 - MOBILE & WEB APP - TEAM
+                        p
+                          | at CV. Mahameru Network Lumajang.
+                      .exp
+                        .hgroup.mb-5
+                          h4 SISTEM INFORMASI RENTAL MOBIL
+                          h6 2015 - WEB APP - TEAM
+                        p
+                          | at SMK Negeri 1 Lumajang.
+
+                .col-md-4.col-sm-6.resume-boxe.masonry
+                  .inner-resume-boxe(style="background: white;")
+                    .block-icon
+                      i.ic-pencil
+                    .block-title
+                      h3.title.medium Events Experience
+                    .timeline.mt-40
+                      .exp
+                        .hgroup.mb-5
+                          h4 Penanggung Jawab
+                          h6 Nov 2017
+                        p
+                          | at Ulang Tahun Himpunan Teknik Informatika.
+                      .exp
+                        .hgroup.mb-5
+                          h4 Fasilitator
+                          h6 Jun 2016
+                        p
+                          | at LKMM TD PENS 2016.
+                      .exp
+                        .hgroup.mb-5
+                          h4 Volunteer
+                          h6 March 2015
+                        p
+                          | at HIMIT Enumeration 2015.
+
+        
+        .block-content.clearfix.t-center.pt-60.pb-60
+          .container
+            .row
+              .block-client.clearfix
+                ul#client-carousel
+                  li
+                    img(src=env.HOSTNAME+'/theme/img/logo/mongodb.png', alt='')
+                  li
+                    img(src=env.HOSTNAME+'/theme/img/logo/mysql.png', alt='')
+                  li
+                    img(src=env.HOSTNAME+'/theme/img/logo/postgresql.png', alt='')
+                  li
+                    img(src=env.HOSTNAME+'/theme/img/logo/nodejs.png', alt='')
+                  li
+                    img(src=env.HOSTNAME+'/theme/img/logo/elastic.png', alt='')
+                  li
+                    img(src=env.HOSTNAME+'/theme/img/logo/docker.png', alt='')
+                  li
+                    img(src=env.HOSTNAME+'/theme/img/logo/l1.png', alt='')
+                  li
+                    img(src=env.HOSTNAME+'/theme/img/logo/php.png', alt='')
+                  li
+                    img(src=env.HOSTNAME+'/theme/img/logo/mikrotik.png', alt='')
+                  li
+                    img(src=env.HOSTNAME+'/theme/img/logo/l8.png', alt='')
+
+        .block-content.t-center.block-background-image.medium.overlay(data-background=env.HOSTNAME+'/theme/img/parallax/5.jpg')
+          .block-testi
+            .container
+              .row
+                .col-md-12
+                  .testi-thumbs
+                    ul.thumbs
+                      li
+                        a.t-active(href='#testi-1')
+                          img(src=env.HOSTNAME+'/theme/img/testimonial/1.jpg', alt='')
+                          span
+                      li
+                        a(href='#testi-2')
+                          img(src=env.HOSTNAME+'/theme/img/testimonial/2.jpg', alt='')
+                          span
+                      li
+                        a(href='#testi-3')
+                          img(src=env.HOSTNAME+'/theme/img/testimonial/3.jpg', alt='')
+                          span
+                      li
+                        a(href='#testi-4')
+                          img(src=env.HOSTNAME+'/theme/img/testimonial/4.jpg', alt='')
+                          span
+                      li
+                        a(href='#testi-5')
+                          img(src=env.HOSTNAME+'/theme/img/testimonial/5.jpg', alt='')
+                          span
+                    h3.white.mt-50.mb-20 Peaple appreciate working with difference vCard
+                  .testi-details.mt-10
+                    #testi-1.td.first
+                      blockquote.mb-40
+                        | Being the richest man in the cemetery doesn't matter to me.
+                        | Going to bed at night saying we've done
+                        br
+                        |  something wonderful... that's what matters to me
+                      h6 Eko Whayu
+                      span  Staff IT Support
+                    #testi-2.td
+                      blockquote.mb-40
+                        | If you keep your eye on the profit, you’re going to skimp on the product.
+                        | But if you focus on making
+                        br
+                        |  really great products, then the profits will follow.
+                      h6 Dimas Andri D.W.
+                      span  Student at PENS
+                    #testi-3.td
+                      blockquote.mb-40
+                        | Being the richest man in the cemetery doesn't matter to me.
+                        | Going to bed at night saying we've done
+                        br
+                        |  something wonderful... that's what matters to me
+                      h6 Agung Kurniawan
+                      span Mobile Developer
+                    #testi-4.td
+                      blockquote.mb-40
+                        | If you keep your eye on the profit, you’re going to skimp on the product.
+                        | But if you focus on making
+                        br
+                        |  really great products, then the profits will follow.
+                      h6 Achmad Syarifudin
+                      span Software Developer
+                    #testi-5.td
+                      blockquote.mb-40
+                        | Being the richest man in the cemetery doesn't matter to me.
+                        | Going to bed at night saying we've done
+                        br
+                        |  something wonderful... that's what matters to me
+                      h6 Diah Permatasari
+                      span Design UI/UXy
+        
+        .block-content.mt-100
+          .block-pricing
+            .container
+              .row
+                .col-md-12
+                  .block-title.mb-60
+                    h2.title Certification
+              .row
+                .block-table.clearfix.t-center
+                  .col-md-3.col-sm-6
+                    .table.pt-50.pb-40
+                      h6 Manage Local Area Network
+                      br
+                      img.img-reponsive(src=env.HOSTNAME+'/theme/img/certificate/alibaba.jpg')
+                      br
+                      br
+                      p Institution :
+                        br
+                        | Badan Nasional Sertifikasi Profesi
+                      a.but.brd.mt-40.white(href='#') 2017
+                  .col-md-3.col-sm-6
+                    .table.pt-50.pb-40
+                      h6 Object Oriented Programming
+                      br
+                      img.img-reponsive(src=env.HOSTNAME+'/theme/img/certificate/alibaba.jpg')
+                      br
+                      br
+                      p Institution :
+                        br
+                        | Badan Nasional Sertifikasi Profesi
+                      a.but.brd.mt-40.white(href='#') 2017
+                  .col-md-3.col-sm-6
+                    .table.pt-50.pb-40
+                      h6 Database for Information System
+                      br
+                      img.img-reponsive(src=env.HOSTNAME+'/theme/img/certificate/alibaba.jpg')
+                      br
+                      br
+                      p Institution :
+                        br
+                        | Badan Nasional Sertifikasi Profesi
+                      a.but.brd.mt-40.white(href='#') 2017
+                  .col-md-3.col-sm-6
+                    .table.pt-50.pb-40
+                      h6 Specialist Operate & Manage RDS
+                      br
+                      img.img-reponsive(src=env.HOSTNAME+'/theme/img/certificate/alibaba.jpg')
+                      br
+                      br
+                      p Institution :
+                        br
+                        | Alibaba Cloud Certification
+                      a.but.brd.mt-40.white(href='#') 2019
+      
+      section#portfolio.portfolio.bg-grey.pt-100.pb-50
+        .block-content
+          .container
+            .row
+              .col-md-12
+                .block-title.mb-60
+                  h2.title Portfolio
+            .block-works
+              .row
+                .col-sm-12
+                  .block-filter.mb-50
+                    ul.filter
+                      li
+                        a.active(href='#', data-filter='all') All
+                      li
+                        a(href='#', data-filter='web') Web Design
+                      li
+                        a(href='#', data-filter='graphic') Graphic Design
+                      li
+                        a(href='#', data-filter='motion') Motion Graphic
+              .row.masonry
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.web
+                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/bd.jpg')
+                      .desc
+                        span in web design
+                        h5 Project Name
+                      img(src=env.HOSTNAME+'/theme/img/portfolio/bd.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.web
+                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/trackcar.jpg')
+                      .desc
+                        span in web design
+                        h5 Project Name
+                      img(src=env.HOSTNAME+'/theme/img/portfolio/trackcar.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.graphic
+                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/track.jpg')
+                      .desc
+                        span in graphic design
+                        h5 Project Name
+                      img(src=env.HOSTNAME+'/theme/img/portfolio/track.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.graphic
+                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/home.jpg')
+                      .desc.graphic
+                        span in graphic design
+                        h5 Project Name
+                      img(src=env.HOSTNAME+'/theme/img/portfolio/home.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.graphic
+                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/simudda.jpg')
+                      .desc
+                        span in graphic design
+                        h5 Project Name
+                      img(src=env.HOSTNAME+'/theme/img/portfolio/simudda.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.motion
+                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/remote.jpg')
+                      .desc
+                        span in motion design
+                        h5 Project Name
+                      img(src=env.HOSTNAME+'/theme/img/portfolio/remote.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.web
+                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/poster.jpg')
+                      .desc
+                        span in web design
+                        h5 Project Name
+                      img(src=env.HOSTNAME+'/theme/img/portfolio/poster.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.motion
+                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/bnis.jpg')
+                      .desc
+                        span in motion design
+                        h5 Project Name
+                      img(src=env.HOSTNAME+'/theme/img/portfolio/bnis.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.web
+                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/monitorping.jpg')
+                      .desc
+                        span in web design
+                        h5 Project Name
+                      img(src=env.HOSTNAME+'/theme/img/portfolio/monitorping.jpg', alt='')
+
+      section#blog.blog.pt-100
+        .block-content
+          .container
+            .row
+              .col-md-12
+                .block-title.mb-60
+                  h2.title Latest News
+            .row
+              .block-posts
+                .col-md-4.col-sm-4
+                  .post.latest
+                    .post-media
+                      img(src=env.HOSTNAME+'/theme/img/blog/1.jpg', alt='')
+                    .post-details.latest.pb-20
+                      h4.uppercase.pt-15.pb-15
+                        a(href='blog_single.html') Raw Introduction
+                      .post-meta.t-center.pt-10.pb-10
+                        ul.clearfix
+                          li.date 03 May
+                          li
+                            i.icon-user-1
+                            span
+                              | by
+                              a(href='#')  admin
+                          li
+                            i.icon-comment
+                            span
+                              | Comments
+                              a(href='#')  (2)
+                      p.pt-15.pb-20
+                        | Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        | Ut enim ad minim veniam, quis nostrud exercitation.
+                      a.more(href='blog_single.html')
+                        | read more 
+                        span →
+                .col-md-4.col-sm-4
+                  .post.latest
+                    .post-media
+                      img(src=env.HOSTNAME+'/theme/img/blog/2.jpg', alt='')
+                    .post-details.latest.pb-20
+                      h4.uppercase.pt-15.pb-15
+                        a(href='blog_single.html') Mobile Design
+                      .post-meta.t-center.pt-10.pb-10
+                        ul.clearfix
+                          li.date 10 Fev
+                          li
+                            i.icon-user-1
+                            span
+                              | by
+                              a(href='#')  admin
+                          li
+                            i.icon-comment
+                            span
+                              | Comments
+                              a(href='#')  (2)
+                      p.pt-15.pb-20
+                        | Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        | Ut enim ad minim veniam, quis nostrud exercitation.
+                      a.more(href='blog_single.html')
+                        | read more 
+                        span →
+                .col-md-4.col-sm-4
+                  .post.latest
+                    .post-media
+                      img(src=env.HOSTNAME+'/theme/img/blog/3.jpg', alt='')
+                    .post-details.latest.pb-20
+                      h4.uppercase.pt-15.pb-15
+                        a(href='blog_single.html') Reading & Blogging
+                      .post-meta.t-center.pt-10.pb-10
+                        ul.clearfix
+                          li.date 05 Sept
+                          li
+                            i.icon-user-1
+                            span
+                              | by
+                              a(href='#')  admin
+                          li
+                            i.icon-comment
+                            span
+                              | Comments
+                              a(href='#')  (2)
+                      p.pt-15.pb-20
+                        | Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        | Ut enim ad minim veniam, quis nostrud exercitation.
+                      a.more(href='blog_single.html')
+                        | read more 
+                        span →
+            .row
+              .col-sm-12.t-center
+                a.but.brd.white.mt-80.mb-80(href='blog.html') View All Blog Posts
+
+      section#contact.contact(style="background: url('"+env.HOSTNAME+"/theme/img/map.jpg') no-repeat fixed center;")
+        .block-content
+          .block-contact
+            #map
+            .contact-overlay.bg-grey-dark
+              .block-title.mb-60
+                h2.title.white Send a Message
+              .block-form
+                form.contact-form.clearfix(method='post', action='#')
+                  input#name(type='text', placeholder='Name *', value='', name='name')
+                  input#email(type='text', placeholder='Email *', value='', name='email')
+                  input#subject(type='text', placeholder='Subject', value='', name='subject')
+                  textarea#message(name='message', placeholder='Message *', cols='45', rows='10')
+                  input.but.opc.white.submit(type='submit', value='Send Message')
+                #success
+                  h2 Your message has been sent. Thank you!
+                #error
+                  h2 Sorry your message can not be sent.
+
+        .block-content.bg-grey.pt-80.pb-80
+          .container
+            .row
+              .block-info-holder.clearfix
+                .col-sm-4
+                  .block-info
+                    .info-ico
+                      span.ico
+                        i.ic-phone
+                    .info-det
+                      h5.mb-10 Call Me
+                      p
+                        | Office : +62 823-3409-3822
+                .col-sm-4
+                  .block-info
+                    .info-ico
+                      span.ico
+                        i.ic-streetsign
+                    .info-det
+                      h5.mb-10 Address
+                      p
+                        | Jl. Ketewel Timur 007/006
+                        br
+                        | Sememu Pasirian Lumajang
+                .col-sm-4
+                  .block-info
+                    .info-ico
+                      span.ico
+                        i.ic-clock
+                    .info-det
+                      h5.mb-10 Work hours
+                      p
+                        | Monday - Friday : 09am - 18pm
+                        br
+                        | Saturday : 09am - 1pm
+        
+      footer.footer.t-center.pt-60.pb-60
+        .container
+          .row
+            .col-md-12
+              ul.socials.round.pb-20
+                li
+                  a(href='#')
+                    i.icon-facebook-circled
+                    span Facebook
+                li
+                  a(href='#')
+                    i.icon-twitter-circled
+                    span Twitter
+                li
+                  a(href='#')
+                    i.icon-linkedin-circled
+                    span Linkedin
+                li
+                  a(href='#')
+                    i.icon-github-circled
+                    span Github
+              hr
+              p.pt-20
+                | © 2019 all rights reserved. Made with all my heart. 
+                a(href=env.HOSTNAME, target='_blank') Ardimasyu.com
+                | .
+
+    script(src=env.HOSTNAME+'/theme/js/jquery-1.11.3.min.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/bootstrap.min.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/owl.carousel.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/jquery.magnific-popup.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/masonry.min.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/jquery.smooth-scroll.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/jquery.appear.min.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/timer.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/placeholders.min.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/easing.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/jquery.ui.totop.min.js', type='text/javascript')
+    script(src=env.HOSTNAME+'/theme/js/script.js', type='text/javascript')
