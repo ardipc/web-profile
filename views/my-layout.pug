@@ -5,14 +5,14 @@ html
     title Ahmad Ardiansyah
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(rel="icon", href=env.HOSTNAME+"/theme/img/favicon.ico")
-    link(href=env.HOSTNAME+'/theme/css/bootstrap.css', rel='stylesheet', type='text/css', media='all')
-    link(href=env.HOSTNAME+'/theme/css/magnific-popup.css', type='text/css', rel='stylesheet', media='all')
-    link(href=env.HOSTNAME+'/theme/css/font.css', rel='stylesheet', type='text/css', media='all')
-    link(href=env.HOSTNAME+'/theme/css/base.css', rel='stylesheet', type='text/css', media='all')
-    link(href=env.HOSTNAME+'/theme/css/main.css', rel='stylesheet', type='text/css', media='all')
-    link(href=env.HOSTNAME+'/theme/css/owl-carousel/owl.carousel.css', rel='stylesheet', media='all')
-    link(href=env.HOSTNAME+'/theme/css/owl-carousel/owl.theme.css', rel='stylesheet', media='all')
+    link(rel="icon", href=env.BASE_URL+"/theme/img/favicon.ico")
+    link(href=env.BASE_URL+'/theme/css/bootstrap.css', rel='stylesheet', type='text/css', media='all')
+    link(href=env.BASE_URL+'/theme/css/magnific-popup.css', type='text/css', rel='stylesheet', media='all')
+    link(href=env.BASE_URL+'/theme/css/font.css', rel='stylesheet', type='text/css', media='all')
+    link(href=env.BASE_URL+'/theme/css/base.css', rel='stylesheet', type='text/css', media='all')
+    link(href=env.BASE_URL+'/theme/css/main.css', rel='stylesheet', type='text/css', media='all')
+    link(href=env.BASE_URL+'/theme/css/owl-carousel/owl.carousel.css', rel='stylesheet', media='all')
+    link(href=env.BASE_URL+'/theme/css/owl-carousel/owl.theme.css', rel='stylesheet', media='all')
   body
     .loader
       .loader-inner
@@ -30,7 +30,7 @@ html
     #wrapper
       section#home.home
         .block-content
-          .block-teaser.block-background-image.large.overlay(data-background=env.HOSTNAME+'/theme/img/teaser/2.jpg')
+          .block-teaser.block-background-image.large.overlay(data-background=env.BASE_URL+'/theme/img/teaser/2.jpg')
             .container
               .row
                 .col-sm-12
@@ -71,7 +71,7 @@ html
                       i.icon-doc-text-inv
               .col-sm-2.pd-0.t-center
                 .img-profile
-                  img(src=env.HOSTNAME+'/theme/img/testimonial/7.jpg', alt='')
+                  img(src=env.BASE_URL+'/theme/img/testimonial/7.jpg', alt='')
                 .name-profile
                   h5
                     a.scroll(href='#home')
@@ -508,27 +508,27 @@ html
               .block-client.clearfix
                 ul#client-carousel
                   li
-                    img(src=env.HOSTNAME+'/theme/img/logo/mongodb.png', alt='')
+                    img(src=env.BASE_URL+'/theme/img/logo/mongodb.png', alt='')
                   li
-                    img(src=env.HOSTNAME+'/theme/img/logo/mysql.png', alt='')
+                    img(src=env.BASE_URL+'/theme/img/logo/mysql.png', alt='')
                   li
-                    img(src=env.HOSTNAME+'/theme/img/logo/postgresql.png', alt='')
+                    img(src=env.BASE_URL+'/theme/img/logo/postgresql.png', alt='')
                   li
-                    img(src=env.HOSTNAME+'/theme/img/logo/nodejs.png', alt='')
+                    img(src=env.BASE_URL+'/theme/img/logo/nodejs.png', alt='')
                   li
-                    img(src=env.HOSTNAME+'/theme/img/logo/elastic.png', alt='')
+                    img(src=env.BASE_URL+'/theme/img/logo/elastic.png', alt='')
                   li
-                    img(src=env.HOSTNAME+'/theme/img/logo/docker.png', alt='')
+                    img(src=env.BASE_URL+'/theme/img/logo/docker.png', alt='')
                   li
-                    img(src=env.HOSTNAME+'/theme/img/logo/l1.png', alt='')
+                    img(src=env.BASE_URL+'/theme/img/logo/l1.png', alt='')
                   li
-                    img(src=env.HOSTNAME+'/theme/img/logo/php.png', alt='')
+                    img(src=env.BASE_URL+'/theme/img/logo/php.png', alt='')
                   li
-                    img(src=env.HOSTNAME+'/theme/img/logo/mikrotik.png', alt='')
+                    img(src=env.BASE_URL+'/theme/img/logo/mikrotik.png', alt='')
                   li
-                    img(src=env.HOSTNAME+'/theme/img/logo/l8.png', alt='')
+                    img(src=env.BASE_URL+'/theme/img/logo/l8.png', alt='')
 
-        .block-content.t-center.block-background-image.medium.overlay(data-background=env.HOSTNAME+'/theme/img/parallax/5.jpg')
+        .block-content.t-center.block-background-image.medium.overlay(data-background=env.BASE_URL+'/theme/img/parallax/5.jpg')
           .block-testi
             .container
               .row
@@ -537,23 +537,23 @@ html
                     ul.thumbs
                       li
                         a.t-active(href='#testi-1')
-                          img(src=env.HOSTNAME+'/theme/img/testimonial/1.jpg', alt='')
+                          img(src=env.BASE_URL+'/theme/img/testimonial/1.jpeg', alt='')
                           span
                       li
                         a(href='#testi-2')
-                          img(src=env.HOSTNAME+'/theme/img/testimonial/2.jpg', alt='')
+                          img(src=env.BASE_URL+'/theme/img/testimonial/2.jpeg', alt='')
                           span
                       li
                         a(href='#testi-3')
-                          img(src=env.HOSTNAME+'/theme/img/testimonial/3.jpg', alt='')
+                          img(src=env.BASE_URL+'/theme/img/testimonial/3.jpeg', alt='')
                           span
                       li
                         a(href='#testi-4')
-                          img(src=env.HOSTNAME+'/theme/img/testimonial/4.jpg', alt='')
+                          img(src=env.BASE_URL+'/theme/img/testimonial/4.jpeg', alt='')
                           span
                       li
                         a(href='#testi-5')
-                          img(src=env.HOSTNAME+'/theme/img/testimonial/5.jpg', alt='')
+                          img(src=env.BASE_URL+'/theme/img/testimonial/5.jpeg', alt='')
                           span
                     h3.white.mt-50.mb-20 Peaple appreciate working with difference vCard
                   .testi-details.mt-10
@@ -563,40 +563,40 @@ html
                         | Going to bed at night saying we've done
                         br
                         |  something wonderful... that's what matters to me
-                      h6 Eko Whayu
-                      span  Staff IT Support
+                      h6 Lina Meritha
+                      span Mobile Developer
                     #testi-2.td
                       blockquote.mb-40
                         | If you keep your eye on the profit, you’re going to skimp on the product.
                         | But if you focus on making
                         br
                         |  really great products, then the profits will follow.
-                      h6 Dimas Andri D.W.
-                      span  Student at PENS
+                      h6 Eko Wahyu
+                      span Staff IT Support
                     #testi-3.td
                       blockquote.mb-40
                         | Being the richest man in the cemetery doesn't matter to me.
                         | Going to bed at night saying we've done
                         br
                         |  something wonderful... that's what matters to me
-                      h6 Agung Kurniawan
-                      span Mobile Developer
+                      h6 Dimas Andri D.W.
+                      span Student PENS
                     #testi-4.td
                       blockquote.mb-40
                         | If you keep your eye on the profit, you’re going to skimp on the product.
                         | But if you focus on making
                         br
                         |  really great products, then the profits will follow.
-                      h6 Achmad Syarifudin
-                      span Software Developer
+                      h6 Diah Permatasari
+                      span Design UI/UX
                     #testi-5.td
                       blockquote.mb-40
                         | Being the richest man in the cemetery doesn't matter to me.
                         | Going to bed at night saying we've done
                         br
                         |  something wonderful... that's what matters to me
-                      h6 Diah Permatasari
-                      span Design UI/UXy
+                      h6 Kila Kiantari
+                      span Software Developer
         
         .block-content.mt-100
           .block-pricing
@@ -611,7 +611,7 @@ html
                     .table.pt-50.pb-40
                       h6 Manage Local Area Network
                       br
-                      img.img-reponsive(src=env.HOSTNAME+'/theme/img/certificate/alibaba.jpg')
+                      img.img-reponsive(src=env.BASE_URL+'/theme/img/certificate/serti1.jpg')
                       br
                       br
                       p Institution :
@@ -622,7 +622,7 @@ html
                     .table.pt-50.pb-40
                       h6 Object Oriented Programming
                       br
-                      img.img-reponsive(src=env.HOSTNAME+'/theme/img/certificate/alibaba.jpg')
+                      img.img-reponsive(src=env.BASE_URL+'/theme/img/certificate/serti2.jpg')
                       br
                       br
                       p Institution :
@@ -633,7 +633,7 @@ html
                     .table.pt-50.pb-40
                       h6 Database for Information System
                       br
-                      img.img-reponsive(src=env.HOSTNAME+'/theme/img/certificate/alibaba.jpg')
+                      img.img-reponsive(src=env.BASE_URL+'/theme/img/certificate/serti3.jpg')
                       br
                       br
                       p Institution :
@@ -644,7 +644,7 @@ html
                     .table.pt-50.pb-40
                       h6 Specialist Operate & Manage RDS
                       br
-                      img.img-reponsive(src=env.HOSTNAME+'/theme/img/certificate/alibaba.jpg')
+                      img.img-reponsive(src=env.BASE_URL+'/theme/img/certificate/alibaba.jpg')
                       br
                       br
                       p Institution :
@@ -667,75 +667,75 @@ html
                       li
                         a.active(href='#', data-filter='all') All
                       li
-                        a(href='#', data-filter='web') Web Design
+                        a(href='#', data-filter='web') TrackCAR
                       li
-                        a(href='#', data-filter='graphic') Graphic Design
+                        a(href='#', data-filter='graphic') Monitoring Ping
                       li
-                        a(href='#', data-filter='motion') Motion Graphic
+                        a(href='#', data-filter='motion') Pinjam Ruang
               .row.masonry
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.web
-                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/bd.jpg')
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/bd.jpg')
                       .desc
                         span in web design
                         h5 Project Name
-                      img(src=env.HOSTNAME+'/theme/img/portfolio/bd.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/bd.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.web
-                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/trackcar.jpg')
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/trackcar.jpg')
                       .desc
                         span in web design
                         h5 Project Name
-                      img(src=env.HOSTNAME+'/theme/img/portfolio/trackcar.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/trackcar.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.graphic
-                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/track.jpg')
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/track.jpg')
                       .desc
                         span in graphic design
                         h5 Project Name
-                      img(src=env.HOSTNAME+'/theme/img/portfolio/track.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/track.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.graphic
-                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/home.jpg')
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/home.jpg')
                       .desc.graphic
                         span in graphic design
                         h5 Project Name
-                      img(src=env.HOSTNAME+'/theme/img/portfolio/home.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/home.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.graphic
-                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/simudda.jpg')
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/simudda.jpg')
                       .desc
                         span in graphic design
                         h5 Project Name
-                      img(src=env.HOSTNAME+'/theme/img/portfolio/simudda.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/simudda.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.motion
-                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/remote.jpg')
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/remote.jpg')
                       .desc
                         span in motion design
                         h5 Project Name
-                      img(src=env.HOSTNAME+'/theme/img/portfolio/remote.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/remote.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.web
-                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/poster.jpg')
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/poster.jpg')
                       .desc
                         span in web design
                         h5 Project Name
-                      img(src=env.HOSTNAME+'/theme/img/portfolio/poster.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/poster.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.motion
-                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/bnis.jpg')
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/bnis.jpg')
                       .desc
                         span in motion design
                         h5 Project Name
-                      img(src=env.HOSTNAME+'/theme/img/portfolio/bnis.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/bnis.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.web
-                    a.popup(href=env.HOSTNAME+'/theme/img/portfolio/monitorping.jpg')
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/monitorping.jpg')
                       .desc
                         span in web design
                         h5 Project Name
-                      img(src=env.HOSTNAME+'/theme/img/portfolio/monitorping.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/monitorping.jpg', alt='')
 
       section#blog.blog.pt-100
         .block-content
@@ -749,13 +749,13 @@ html
                 .col-md-4.col-sm-4
                   .post.latest
                     .post-media
-                      img(src=env.HOSTNAME+'/theme/img/blog/1.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/trackcar.jpg', alt='', style='width: 360px; height: 202px;')
                     .post-details.latest.pb-20
                       h4.uppercase.pt-15.pb-15
-                        a(href='blog_single.html') Raw Introduction
+                        a(href='#') TrackCAR v1.0
                       .post-meta.t-center.pt-10.pb-10
                         ul.clearfix
-                          li.date 03 May
+                          li.date 03 Jun
                           li
                             i.icon-user-1
                             span
@@ -767,21 +767,21 @@ html
                               | Comments
                               a(href='#')  (2)
                       p.pt-15.pb-20
-                        | Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        | Ut enim ad minim veniam, quis nostrud exercitation.
-                      a.more(href='blog_single.html')
+                        | Aplikasi ini merupakan tugas akhir saya di Politeknik Elektronika Negeri Surabaya (PENS)  ,
+                        | dengan judul TrackCAR with your Smartphone.
+                      a.more(href='#')
                         | read more 
                         span →
                 .col-md-4.col-sm-4
                   .post.latest
                     .post-media
-                      img(src=env.HOSTNAME+'/theme/img/blog/2.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/monitorping.jpg', alt='', style='width: 360px; height: 202px;')
                     .post-details.latest.pb-20
                       h4.uppercase.pt-15.pb-15
-                        a(href='blog_single.html') Mobile Design
+                        a(href='#') Monitoring Ping
                       .post-meta.t-center.pt-10.pb-10
                         ul.clearfix
-                          li.date 10 Fev
+                          li.date 02 Jan
                           li
                             i.icon-user-1
                             span
@@ -793,18 +793,18 @@ html
                               | Comments
                               a(href='#')  (2)
                       p.pt-15.pb-20
-                        | Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        | Ut enim ad minim veniam, quis nostrud exercitation.
-                      a.more(href='blog_single.html')
+                        | Aplikasi ini dibuat untuk memonitoring jaringan dengan cara menguji ping terminal
+                        | di Operasi Sistem menggunakan teknologi WebSocket.
+                      a.more(href='#')
                         | read more 
                         span →
                 .col-md-4.col-sm-4
                   .post.latest
                     .post-media
-                      img(src=env.HOSTNAME+'/theme/img/blog/3.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/pinjamruang.jpg', alt='', style='width: 360px; height: 202px;')
                     .post-details.latest.pb-20
                       h4.uppercase.pt-15.pb-15
-                        a(href='blog_single.html') Reading & Blogging
+                        a(href='#') Pinjam Ruang Crawling
                       .post-meta.t-center.pt-10.pb-10
                         ul.clearfix
                           li.date 05 Sept
@@ -819,16 +819,16 @@ html
                               | Comments
                               a(href='#')  (2)
                       p.pt-15.pb-20
-                        | Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        | Ut enim ad minim veniam, quis nostrud exercitation.
-                      a.more(href='blog_single.html')
+                        | Aplikasi ini digunakan untuk peminjaman ruang dengan fitur validasi NRP mahasiswa
+                        | Politeknik Elektronika Negeri Surabaya.
+                      a.more(href='#')
                         | read more 
                         span →
             .row
               .col-sm-12.t-center
-                a.but.brd.white.mt-80.mb-80(href='blog.html') View All Blog Posts
+                a.but.brd.white.mt-80.mb-80(href='#') View All Blog Posts
 
-      section#contact.contact(style="background: url('"+env.HOSTNAME+"/theme/img/map.jpg') no-repeat fixed center;")
+      section#contact.contact(style="background: url('"+env.BASE_URL+"/theme/img/map.jpg') no-repeat fixed center;")
         .block-content
           .block-contact
             #map
@@ -907,18 +907,18 @@ html
               hr
               p.pt-20
                 | © 2019 all rights reserved. Made with all my heart. 
-                a(href=env.HOSTNAME, target='_blank') Ardimasyu.com
+                a(href=env.BASE_URL, target='_blank') Ardimasyu.com
                 | .
 
-    script(src=env.HOSTNAME+'/theme/js/jquery-1.11.3.min.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/bootstrap.min.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/owl.carousel.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/jquery.magnific-popup.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/masonry.min.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/jquery.smooth-scroll.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/jquery.appear.min.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/timer.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/placeholders.min.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/easing.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/jquery.ui.totop.min.js', type='text/javascript')
-    script(src=env.HOSTNAME+'/theme/js/script.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/jquery-1.11.3.min.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/bootstrap.min.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/owl.carousel.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/jquery.magnific-popup.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/masonry.min.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/jquery.smooth-scroll.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/jquery.appear.min.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/timer.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/placeholders.min.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/easing.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/jquery.ui.totop.min.js', type='text/javascript')
+    script(src=env.BASE_URL+'/theme/js/script.js', type='text/javascript')
