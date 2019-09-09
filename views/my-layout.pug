@@ -35,7 +35,7 @@ html
               .row
                 .col-sm-12
                   h1.white Ahmad Ardiansyah
-                  h3.mt-20.white.mb-200 Web Engineer / Developer
+                  h3.mt-20.white.mb-200 Web Engineering / Developer
               .row
                 .col-sm-6
                   a.but.opc.ico.white(href='#')
@@ -97,7 +97,7 @@ html
           .block-about.one.bg-grey-1
             .block-title
               h2.title Who am I ?
-            h5.lead.mt-40 A Talented Web Engineer / Developer Located In Our Lovely Earth
+            h5.lead.mt-40 A Talented Web & REST Engineering / Developer Located In Our Lovely Earth
             p.mt-20
               | Hard work, very well organized, work in team, following the rules, funny, and
               | being the best I can be.
@@ -127,8 +127,8 @@ html
                 span Freelance
                 |  : Available
               li
-                span Adresse
-                |  : Jl. Ketewel Timur RT007 RW006 Sememu, Pasirian Lumajang.
+                span Addresse
+                |  : Jl. Ketewel Timur RT007 RW006 Sememu, Pasirian Lumajang, Jawa Timur.
             ul.mt-20.socials
               li
                 a(href='#')
@@ -164,22 +164,22 @@ html
                   span.ico
                     i.ic-desktop
                 .exp-det
-                  h6 Web Engineer
-                  p Node.js, Vue.js, and PHP
+                  h6 Web & API Engineer
+                  p Node.js, Vue.js, Yii2, Socket.io, and CodeIgniter, Bootstrap
               .expertise.mb-20.clearfix
                 .exp-ico
                   span.ico
                     i.ic-lock
                 .exp-det
-                  h6 Specialist RDS
-                  p Cloud Service MySQL and Postgres
+                  h6 Specialist Cloud Server
+                  p Docker Swarm, Server, API Gateway
               .expertise.clearfix
                 .exp-ico
                   span.ico
                     i.ic-phone
                 .exp-det
-                  h6 Networking
-                  p Cisco, Mikrotik, etc.
+                  h6 Specialist Cloud Database
+                  p MySQL Cluster, PostgreSQL Master Slave, MongoDB, RethinkDB
       section#resume.resume.pt-100.pb-80
         .container
           .row
@@ -194,11 +194,11 @@ html
                   .block-icon
                     i.ic-toolbox
                   .block-title
-                    h3.title.medium Expertise
+                    h3.title.medium My Works
                   .timeline.mt-40
                     .exp
                       .hgroup.mb-5
-                        h4 Infrastructure – IT Operational
+                        h4 Infrastructure – IT Development Options
                         h6
                           | Sept 2018 – 
                           span.current Current
@@ -212,7 +212,7 @@ html
                         | at Electronic Engineering Polytechnic Institute of Surabaya.
                     .exp
                       .hgroup.mb-5
-                        h4 Freelancer – MIS Website
+                        h4 Freelancer – Company Web Profile
                         h6 Agt 2013 – Agt 2015
                       p
                         | at Electronic Engineering Polytechnic Institute of Surabaya.
@@ -390,7 +390,7 @@ html
             .row
               .col-md-12
                 .block-title.mb-60
-                  h2.title My History Works
+                  h2.title My History Experience
             .row.masonry
               .block-service.clearfix
                 .col-md-4.col-sm-6.resume-boxe.masonry
@@ -426,6 +426,18 @@ html
                     .block-title
                       h3.title.medium Project Experience
                     .timeline.mt-40
+                      .exp
+                        .hgroup.mb-5
+                          h4 REALTIME DATABASE with RETHINKDB
+                          h6 2019 - WEB APP - INDIVIDUAL
+                        p
+                          | at Freelancer.
+                      .exp
+                        .hgroup.mb-5
+                          h4 WEB ERECRUITMENT
+                          h6 2019 - WEB APP - INDIVIDUAL
+                        p
+                          | at PT. BNI Syariah.
                       .exp
                         .hgroup.mb-5
                           h4 MONITORING PING NETWORK
@@ -468,12 +480,6 @@ html
                           h6 2015 - MOBILE & WEB APP - TEAM
                         p
                           | at CV. Mahameru Network Lumajang.
-                      .exp
-                        .hgroup.mb-5
-                          h4 SISTEM INFORMASI RENTAL MOBIL
-                          h6 2015 - WEB APP - TEAM
-                        p
-                          | at SMK Negeri 1 Lumajang.
 
                 .col-md-4.col-sm-6.resume-boxe.masonry
                   .inner-resume-boxe(style="background: white;")
@@ -607,50 +613,18 @@ html
                     h2.title Certification
               .row
                 .block-table.clearfix.t-center
-                  .col-md-3.col-sm-6
-                    .table.pt-50.pb-40
-                      h6 Manage Local Area Network
-                      br
-                      img.img-reponsive(src=env.BASE_URL+'/theme/img/certificate/serti1.jpg')
-                      br
-                      br
-                      p Institution :
+                  each dd,i in sertifikats
+                    .col-md-3.col-sm-6
+                      .table.pt-50.pb-40
+                        h6= dd.name
                         br
-                        | Badan Nasional Sertifikasi Profesi
-                      a.but.brd.mt-40.white(href='#') 2017
-                  .col-md-3.col-sm-6
-                    .table.pt-50.pb-40
-                      h6 Object Oriented Programming
-                      br
-                      img.img-reponsive(src=env.BASE_URL+'/theme/img/certificate/serti2.jpg')
-                      br
-                      br
-                      p Institution :
+                        img.img-reponsive(src=env.BASE_URL+'/theme/img/certificate/'+dd.gambar)
                         br
-                        | Badan Nasional Sertifikasi Profesi
-                      a.but.brd.mt-40.white(href='#') 2017
-                  .col-md-3.col-sm-6
-                    .table.pt-50.pb-40
-                      h6 Database for Information System
-                      br
-                      img.img-reponsive(src=env.BASE_URL+'/theme/img/certificate/serti3.jpg')
-                      br
-                      br
-                      p Institution :
                         br
-                        | Badan Nasional Sertifikasi Profesi
-                      a.but.brd.mt-40.white(href='#') 2017
-                  .col-md-3.col-sm-6
-                    .table.pt-50.pb-40
-                      h6 Specialist Operate & Manage RDS
-                      br
-                      img.img-reponsive(src=env.BASE_URL+'/theme/img/certificate/alibaba.jpg')
-                      br
-                      br
-                      p Institution :
-                        br
-                        | Alibaba Cloud Certification
-                      a.but.brd.mt-40.white(href='#') 2019
+                        p Institution :
+                          br
+                          | #{dd.institusi}
+                        a.but.brd.mt-40.white(href='#')= dd.tanggal
       
       section#portfolio.portfolio.bg-grey.pt-100.pb-50
         .block-content
@@ -658,7 +632,7 @@ html
             .row
               .col-md-12
                 .block-title.mb-60
-                  h2.title Portfolio
+                  h2.title Portofolio
             .block-works
               .row
                 .col-sm-12
@@ -672,6 +646,8 @@ html
                         a(href='#', data-filter='graphic') Monitoring Ping
                       li
                         a(href='#', data-filter='motion') Pinjam Ruang
+                      li
+                        a(href='#', data-filter='website') Website
               .row.masonry
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.web
@@ -681,19 +657,19 @@ html
                         h5 Project Name
                       img(src=env.BASE_URL+'/theme/img/portfolio/bd.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
-                  .item.web
-                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/trackcar.jpg')
-                      .desc
-                        span in web design
-                        h5 Project Name
-                      img(src=env.BASE_URL+'/theme/img/portfolio/trackcar.jpg', alt='')
-                .col-md-3.col-sm-6.masonry.item-block
                   .item.graphic
-                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/track.jpg')
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/tracking.jpg')
                       .desc
                         span in graphic design
                         h5 Project Name
-                      img(src=env.BASE_URL+'/theme/img/portfolio/track.jpg', alt='')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/tracking.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.graphic
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/tracki.jpg')
+                      .desc
+                        span in graphic design
+                        h5 Project Name
+                      img(src=env.BASE_URL+'/theme/img/portfolio/tracki.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
                   .item.graphic
                     a.popup(href=env.BASE_URL+'/theme/img/portfolio/home.jpg')
@@ -716,6 +692,13 @@ html
                         h5 Project Name
                       img(src=env.BASE_URL+'/theme/img/portfolio/remote.jpg', alt='')
                 .col-md-3.col-sm-6.masonry.item-block
+                  .item.website
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/ki1.jpg')
+                      .desc
+                        span in web design
+                        h5 Project Name
+                      img(src=env.BASE_URL+'/theme/img/portfolio/ki1.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
                   .item.web
                     a.popup(href=env.BASE_URL+'/theme/img/portfolio/poster.jpg')
                       .desc
@@ -736,6 +719,20 @@ html
                         span in web design
                         h5 Project Name
                       img(src=env.BASE_URL+'/theme/img/portfolio/monitorping.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.website
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/bd1.jpg')
+                      .desc
+                        span in web design
+                        h5 Project Name
+                      img(src=env.BASE_URL+'/theme/img/portfolio/bd1.jpg', alt='')
+                .col-md-3.col-sm-6.masonry.item-block
+                  .item.website
+                    a.popup(href=env.BASE_URL+'/theme/img/portfolio/bd2.jpg')
+                      .desc
+                        span in web design
+                        h5 Project Name
+                      img(src=env.BASE_URL+'/theme/img/portfolio/bd2.jpg', alt='')
 
       section#blog.blog.pt-100
         .block-content
@@ -749,7 +746,7 @@ html
                 .col-md-4.col-sm-4
                   .post.latest
                     .post-media
-                      img(src=env.BASE_URL+'/theme/img/portfolio/trackcar.jpg', alt='', style='width: 360px; height: 202px;')
+                      img(src=env.BASE_URL+'/theme/img/portfolio/tracking.jpg', alt='', style='width: 360px; height: 202px;')
                     .post-details.latest.pb-20
                       h4.uppercase.pt-15.pb-15
                         a(href='#') TrackCAR v1.0
